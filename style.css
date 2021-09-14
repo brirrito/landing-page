@@ -74,22 +74,15 @@ button:hover {
   border-color: rgba(255,255,255,1);
 }
 
-.body-two {
+.boxes {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  margin-top: 10px;
   align-items: center;
-}
-
-.psycho-images{
-  display: flex;
   justify-content: center;
-  align-content: space-between;
-  flex-wrap: nowrap;
-  gap: 20px;
+  gap: 52px;
 }
 
-.psychotic-images {
+.img-group {
   max-width: 225px;
   max-height: 150px;
   border-radius: 15px;
@@ -101,5 +94,64 @@ button:hover {
   font-family: "Sofia", sans-serif;
   font-size: 24px;
   padding: 15px 0px;
+  display: flex;
   font-weight: bold;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+
+.area-three {
+  background: rgb(165, 68, 41);
+  color:white;
+  font-family: "Sofia", sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.quote, .author {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 15px;
+}
+
+.quote {
+  font-size: 30px;
+}
+
+.area-four {
+  display: flex;
+  margin: 60px;
+  padding: 40px;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-four {
+  font-size: 21px;
+  font-weight: bold;
+  padding-bottom: 4px;
+}
+
+.sign-up-button {
+  flex-shrink: 0;
+}
+
+.footer {
+  height: 72px;
+  background: white;
+  color:rgb(165, 68, 41);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
